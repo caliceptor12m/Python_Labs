@@ -185,3 +185,49 @@ print("Intermediate Multiplication:", multiplication_result)
 print("Final Result:", final_result)
 
 
+# First-run data
+product = {'id': 101, 'name': 'Notebook', 'price': 125.0}
+
+# Retrieve using direct key access
+product_id = product['id']
+product_name = product['name']
+product_price = product['price']
+
+print("First Run:")
+print("Product Dictionary:", product)
+print("ID:", product_id)
+print("Name:", product_name)
+print("Price:", product_price)
+
+print("\n--- Curated Second Run ---")
+product = {'id': 202, 'name': 'Marker', 'price': 45.0}
+product_id = product['id']
+product_name = product['name']
+product_price = product['price']
+print("Product Dictionary:", product)
+print("ID:", product_id)
+print("Name:", product_name)
+print("Price:", product_price)
+
+
+
+# First-run data
+product = {'name': 'Pen', 'price': 20.0}
+stock = 50
+revised_price = 22.0
+
+print("First Run:")
+print("Original Dictionary:", product)
+# Add new key and update existing key
+product['stock'] = stock
+product['price'] = revised_price
+print("Updated Dictionary:", product)
+
+print("\n--- Curated Second Run ---")
+product = {'name': 'Pen', 'price': 20.0}
+stock = 0
+revised_price = 20.0
+print("Original Dictionary:", product)
+product['stock'] = stock
+product['price'] = revised_price
+print("Updated Dictionary:", product)
